@@ -1,4 +1,4 @@
-﻿using MAQUINA_EXPENDEDORA;
+﻿using Maquina_expendedora;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CAFFETERIA.MAQUINA_EXPENDEDORA
+namespace Cafeteria.Maquina_expendedora
 {
     public partial class MaquinaExpendedora : Form
     {
@@ -64,7 +64,7 @@ namespace CAFFETERIA.MAQUINA_EXPENDEDORA
 
             if (posicionSeleccionada >= 0)
             {
-                
+
                 int cantidad = (int)txtCantidad.Value;
                
                 vitrina[posicionSeleccionada].ProcesarCompra(cantidad);
@@ -72,7 +72,17 @@ namespace CAFFETERIA.MAQUINA_EXPENDEDORA
             }
         }
 
-        // 4. BOTÓN SURTIR
+     
+        private void MaquinaExp_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCantidad_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void txtAbastecer_Click(object sender, EventArgs e)
         {
             int posicionSeleccionada = cmbProductos.SelectedIndex;
@@ -84,16 +94,6 @@ namespace CAFFETERIA.MAQUINA_EXPENDEDORA
 
                 ActualizarVitrina();
             }
-        }
-
-        private void MaquinaExp_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCantidad_ValueChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void grpOperaciones_Enter(object sender, EventArgs e)

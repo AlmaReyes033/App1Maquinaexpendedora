@@ -1,4 +1,4 @@
-﻿namespace CAFFETERIA.MAQUINA_EXPENDEDORA
+﻿namespace Cafeteria.Maquina_expendedora
 {
     partial class MaquinaExpendedora
     {
@@ -62,6 +62,7 @@
             // txtAbastecer
             // 
             this.txtAbastecer.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtAbastecer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAbastecer.Location = new System.Drawing.Point(26, 323);
             this.txtAbastecer.Name = "txtAbastecer";
             this.txtAbastecer.Size = new System.Drawing.Size(200, 55);
@@ -73,6 +74,7 @@
             // btnComprar
             // 
             this.btnComprar.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnComprar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComprar.Location = new System.Drawing.Point(26, 251);
             this.btnComprar.Name = "btnComprar";
             this.btnComprar.Size = new System.Drawing.Size(200, 46);
@@ -144,20 +146,21 @@
             this.txtVitrina.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVitrina.FormattingEnabled = true;
             this.txtVitrina.ItemHeight = 20;
-            this.txtVitrina.Location = new System.Drawing.Point(20, 21);
+            this.txtVitrina.Location = new System.Drawing.Point(14, 21);
             this.txtVitrina.Name = "txtVitrina";
-            this.txtVitrina.Size = new System.Drawing.Size(408, 384);
+            this.txtVitrina.Size = new System.Drawing.Size(427, 384);
             this.txtVitrina.TabIndex = 0;
             // 
-            // MaquinaExp
+            // MaquinaExpendedora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(723, 450);
             this.Controls.Add(this.grpVitrina);
             this.Controls.Add(this.grpOperaciones);
-            this.Name = "MaquinaExp";
-            this.Text = "Máquina Expendedora";
+            this.Name = "MaquinaExpendedora";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Máquina Expendedora RA";
             this.Load += new System.EventHandler(this.MaquinaExp_Load);
             this.grpOperaciones.ResumeLayout(false);
             this.grpOperaciones.PerformLayout();

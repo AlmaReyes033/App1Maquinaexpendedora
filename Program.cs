@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CAFFETERIA.MAQUINA_EXPENDEDORA;
+using Cafeteria.Maquina_expendedora;
 
-namespace MAQUINA_EXPENDEDORA1
+namespace Maquina_expendedora
 {
     internal static class Program
     {

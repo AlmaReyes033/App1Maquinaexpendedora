@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MAQUINA_EXPENDEDORA
+namespace Maquina_expendedora
 {
     internal class Producto
     {
